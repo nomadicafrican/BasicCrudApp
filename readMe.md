@@ -2,12 +2,12 @@
 
 ## Initial Setup
 
-1. you will need to install NPM packages, to learn how visit ![here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+1. you will need to install NPM packages, to learn how visit [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 2. Clone this repo. To do this press the green "Code" button. Copy the link and type `git clone (link)` in your terminal
 3. Install dependencies using `Npm Install`
 4. Setup the Database by following the Creating DB section below.
 5. Run server using `npm start`
-6. Go to ![localhost:8080](http://localhost:8080/) in your browser to see the website!
+6. Go to [localhost:8080](http://localhost:8080/) in your browser to see the website!
 
 ## Creating DB
 
