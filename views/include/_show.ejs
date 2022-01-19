@@ -1,0 +1,25 @@
+<% for(let card in cards){ %>
+<tr>
+  <td><%= cards[card].graphics_card%></td>
+  <td><%= cards[card].quantity%></td>
+  <td><%= cards[card].description%></td>
+  <td><%= cards[card].price%></td>
+
+  <td>
+    <a
+      href="/update-card?id=<%=cards[card].id%>"
+      class="btn border-shadow update"
+    >
+      <span class="text-gradient">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </span>
+    </a>
+
+    <form method="POST" action="/delete/<%=cards[card].id%>">
+      <button class="btn border-shadow remove">
+        <i class="fas fa-backspace"></i>
+      </button>
+    </form>
+  </td>
+</tr>
+<% }%>

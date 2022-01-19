@@ -1,0 +1,30 @@
+<%-include('include/_header')%>
+<main id="site-main">
+  <div class="container">
+    <div class="box-nav.d-flex-justify-between">
+      <a href="/add-card" class="border-shadow">
+        <span class="text-gradient">NEW Graphic Card</span>
+      </a>
+    </div>
+    <!-- form handeling -->
+    <a href="/exportData" class="border-shadow"><span>Click her for csv</span></a>
+    <form action="/" method="post">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Graphic Card</th>
+            <th>Quantity</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Update/Delete</th>
+          </tr>
+        </thead>
+      </form>
+        <tbody>
+          <%-include('include/_show')%>
+        </tbody>
+      </table>
+  </div>
+</main>
+
+<%-include('include/_footer')%>
